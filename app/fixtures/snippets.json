@@ -1,0 +1,41 @@
+[
+    {
+        "model": "app.snippet",
+        "pk": 1,
+        "fields":
+        {
+            "created": "2022-10-25T22:36:13.241Z",
+            "title": "",
+            "code": "Codigo uno",
+            "linenos": false,
+            "language": "pyhton",
+            "style": "friendly"
+        }
+    },
+    {
+        "model": "app.snippet",
+        "pk": 2,
+        "fields":
+        {
+            "created": "2022-10-25T22:36:13.241Z",
+            "title": "",
+            "code": "Codigo dos",
+            "linenos": false,
+            "language": "pyhton",
+            "style": "friendly"
+        }
+    },
+    {
+        "model": "app.snippet",
+        "pk": 3,
+        "fields":
+        {
+            "created": "2022-10-26T15:30:39.253Z",
+            "title": "",
+            "code": "Codigo 3",
+            "linenos": false,
+            "language": "python",
+            "style": "friendly"
+        }
+    }
+]
