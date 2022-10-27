@@ -7,6 +7,7 @@ class SnippetsTestCase(TestCase):
 
     def setUp(self):
         self.client = APIClient()
+        self.client.login(username='admin', password='admin')
 
     def test_get_snippets(self):
         response = self.client.get('/snippets/')

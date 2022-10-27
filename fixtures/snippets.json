@@ -1,41 +1,59 @@
 [
-    {
-        "model": "app.snippet",
-        "pk": 1,
-        "fields":
-        {
-            "created": "2022-10-25T22:36:13.241Z",
-            "title": "",
-            "code": "Codigo uno",
-            "linenos": false,
-            "language": "pyhton",
-            "style": "friendly"
-        }
-    },
-    {
-        "model": "app.snippet",
-        "pk": 2,
-        "fields":
-        {
-            "created": "2022-10-25T22:36:13.241Z",
-            "title": "",
-            "code": "Codigo dos",
-            "linenos": false,
-            "language": "pyhton",
-            "style": "friendly"
-        }
-    },
-    {
-        "model": "app.snippet",
-        "pk": 3,
-        "fields":
-        {
-            "created": "2022-10-26T15:30:39.253Z",
-            "title": "",
-            "code": "Codigo 3",
-            "linenos": false,
-            "language": "python",
-            "style": "friendly"
-        }
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$akQvFciph7IJu5k8rpD3WW$IVSJ+o3FbtGrsn71L4Y91WCpeRaBzGWvIwdvqiz1T18=",
+      "last_login": null,
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@example.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-10-27T21:14:57.265Z",
+      "groups": [],
+      "user_permissions": []
     }
+  },
+  {
+    "model": "app.snippet",
+    "pk": 1,
+    "fields": {
+      "owner": 1,
+      "created": "2022-10-25T22:36:13.241Z",
+      "title": "",
+      "code": "Codigo uno",
+      "linenos": false,
+      "language": "python",
+      "style": "friendly"
+    }
+  },
+  {
+    "model": "app.snippet",
+    "pk": 2,
+    "fields": {
+      "owner": 1,
+      "created": "2022-10-25T22:36:13.241Z",
+      "title": "",
+      "code": "Codigo dos",
+      "linenos": false,
+      "language": "python",
+      "style": "friendly"
+    }
+  },
+  {
+    "model": "app.snippet",
+    "pk": 3,
+    "fields": {
+      "owner": 1,
+      "created": "2022-10-26T15:30:39.253Z",
+      "title": "",
+      "code": "Codigo 3",
+      "linenos": false,
+      "language": "python",
+      "style": "friendly"
+    }
+  }
 ]
